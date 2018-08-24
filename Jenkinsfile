@@ -1,9 +1,9 @@
-ciNode = ""
+ciNode = "ppp-slave2"
 repoName = "jenkinslibrary"
-branchName = "master"
+branchName = "feature/ubs_ci"
 
 node {
-    ciNode = env.UBS_SLAVE ?: "master"
+    ciNode = env.UBS_SLAVE ?: "feature/ubs_ci"
 }
 
 node(ciNode) {
