@@ -1,6 +1,6 @@
 ciNode = "ppp-slave2"
 repoName = "jenkinslibrary"
-branchName = "feature/ubs_ci"
+branchName = "master"
 
 node {
     ciNode = env.UBS_SLAVE ?: "master"
