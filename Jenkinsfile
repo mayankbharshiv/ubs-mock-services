@@ -11,7 +11,7 @@ node(ciNode) {
         library (identifier: "customlibrary@$branchName",
                 changelog: true,
                 retriever: modernSCM([$class: 'GitSCMSource',
-                                        remote: "https://bitbucket.org/vuclipengineering/" + "$repoName" + ".git",
+                                        remote: "https://rahulsahu24556@bitbucket.org/vuclipengineering/" + "$repoName" + ".git",
                                         extensions: [[$class: 'CleanBeforeCheckout']],
                                         branches: [[name: "$branchName"]],
                                         credentialsId: 'BITBUCKET_SINGH']))
