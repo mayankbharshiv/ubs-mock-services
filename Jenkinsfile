@@ -3,7 +3,7 @@ repoName = "jenkinslibrary"
 branchName = "feature/ubs_ci"
 
 node {
-    ciNode = env.UBS_SLAVE ?: "feature/ubs_ci"
+    ciNode = env.UBS_SLAVE ?: "master"
 }
 
 node(ciNode) {
