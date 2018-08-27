@@ -14,3 +14,4 @@ googleCloudCredentialName: gcr:ppp-prod
 googleCloudProjectName: ppp-prod
 systemTestRunCommand: na
 recipients: cc:rahul.sahu@vuclip.com
+SONAR_CI_CREDS: admin -Dsonar.password=admin
