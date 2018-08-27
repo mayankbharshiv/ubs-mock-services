@@ -1,6 +1,6 @@
 ciNode = ""
 repoName = "jenkinslibrary"
-branchName = "ubs_ci"
+branchName = "feature/ubs_ci"
 
 node {
     ciNode = env.UBS_SLAVE ?: "master"
