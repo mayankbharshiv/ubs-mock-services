@@ -13,4 +13,4 @@ dockerRegistry: https://us.gcr.io
 googleCloudCredentialName: gcr:ppp-prod
 googleCloudProjectName: ppp-prod
 systemTestRunCommand: na
-recipients: cc:premium.automation@vuclip.com, cc:unified.billing@vuclip.com, cc:rahul.sahu@vuclip.com
+recipients: cc:rahul.sahu@vuclip.com
